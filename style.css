@@ -1,0 +1,65 @@
+body{
+    background: linear-gradient(#3e4976, #f0f2f0, #000c40);
+}
+
+h1{
+    color: white;
+text-shadow: 3px 3px #762222;
+    font-family: 'Cinzel', serif;
+
+
+}
+#footer{
+background-color: rgb(90, 31, 31);
+font-size: 21.5px;
+color: rgb(251, 253, 255);
+position: fixed;
+bottom: 0;
+width: 100%;
+/* padding: 4.5px */
+line-height: 2;
+letter-spacing: 1.7px;
+box-shadow: inset 5px 5px 25px steelblue;
+ }
+
+ button{
+    font-family: 'Raleway', sans-serif;
+    box-shadow: inset 5px 5px 25px rgb(88, 24, 24);
+    font-size: 16.2px !important;
+    font-weight: bold;
+ }
+ #show_sketch{
+    float: right;
+    margin-right: 50px;
+    font-weight: bold;
+    color: #762222
+ }
+
+ #clear_button{
+    font-weight: bold;
+    color: #762222
+ }
+
+ h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: antiquewhite;
+ }
+canvas{
+    border-style: double;
+    border-radius: 20px;
+    border-color: #ffffff;
+animation-name: shading;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+
+@keyframes shading{
+    from{box-shadow: 5px 5px 35px 10px grey;}  
+    to{box-shadow: 5px 5px 35px 10px rgb(0, 0, 0);}  
+
+    
+}
+
+
+
+ 
